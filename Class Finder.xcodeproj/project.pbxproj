@@ -16,7 +16,9 @@
 		ED24A0982236C5E700C13A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED24A0962236C5E700C13A6A /* LaunchScreen.storyboard */; };
 		ED24A0A32236C5E700C13A6A /* Class_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A0A22236C5E700C13A6A /* Class_FinderTests.swift */; };
 		ED24A0AE2236C5E700C13A6A /* Class_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A0AD2236C5E700C13A6A /* Class_FinderUITests.swift */; };
-		ED24A0BC223744BF00C13A6A /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A0BB223744BF00C13A6A /* MapsViewController.swift */; };
+		ED24A0BE22378FF300C13A6A /* MapsViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A0BD22378FF300C13A6A /* MapsViewController1.swift */; };
+		ED24A0C022379DC400C13A6A /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A0BF22379DC400C13A6A /* ClassViewController.swift */; };
+		ED24A0C32239A68F00C13A6A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED24A0C22239A68F00C13A6A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +60,9 @@
 		ED24A0A92236C5E700C13A6A /* Class FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Class FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED24A0AD2236C5E700C13A6A /* Class_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_FinderUITests.swift; sourceTree = "<group>"; };
 		ED24A0AF2236C5E700C13A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED24A0BB223744BF00C13A6A /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		ED24A0BD22378FF300C13A6A /* MapsViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController1.swift; sourceTree = "<group>"; };
+		ED24A0BF22379DC400C13A6A /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		ED24A0C22239A68F00C13A6A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,12 +141,14 @@
 		ED24A08C2236C5E600C13A6A /* Class Finder */ = {
 			isa = PBXGroup;
 			children = (
+				ED24A0C12239A67F00C13A6A /* Models */,
 				ED24A08D2236C5E600C13A6A /* AppDelegate.swift */,
 				ED24A0912236C5E600C13A6A /* Main.storyboard */,
 				ED24A0942236C5E700C13A6A /* Assets.xcassets */,
 				ED24A0962236C5E700C13A6A /* LaunchScreen.storyboard */,
 				ED24A0992236C5E700C13A6A /* Info.plist */,
-				ED24A0BB223744BF00C13A6A /* MapsViewController.swift */,
+				ED24A0BD22378FF300C13A6A /* MapsViewController1.swift */,
+				ED24A0BF22379DC400C13A6A /* ClassViewController.swift */,
 			);
 			path = "Class Finder";
 			sourceTree = "<group>";
@@ -163,6 +169,14 @@
 				ED24A0AF2236C5E700C13A6A /* Info.plist */,
 			);
 			path = "Class FinderUITests";
+			sourceTree = "<group>";
+		};
+		ED24A0C12239A67F00C13A6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED24A0C22239A68F00C13A6A /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,8 +407,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED24A0C32239A68F00C13A6A /* User.swift in Sources */,
+				ED24A0C022379DC400C13A6A /* ClassViewController.swift in Sources */,
 				ED24A08E2236C5E600C13A6A /* AppDelegate.swift in Sources */,
-				ED24A0BC223744BF00C13A6A /* MapsViewController.swift in Sources */,
+				ED24A0BE22378FF300C13A6A /* MapsViewController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
