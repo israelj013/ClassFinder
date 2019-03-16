@@ -30,11 +30,9 @@ class ClassViewController: UIViewController {
         let start = startTextField.text!
         let end = endTextField.text!
         
-        User.currentLocation = start
-        User.endpoint = end
+        //User.currentLocation =
+        //User.endpoint =
         
-        print(User.currentLocation)
-        print(User.endpoint)
     }
     
 

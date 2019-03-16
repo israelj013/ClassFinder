@@ -7,11 +7,12 @@
 //
 
 import Foundation
+import GoogleMaps
 
 struct User {
     
     
-    static var currentLocation = ""
-    static var endpoint = ""
+    static var currentLocation = CLLocation(latitude: 33.6451559, longitude: -117.8434574)
+    static var endpoint = CLLocation(latitude: 50.6451559, longitude: -117.8434574)
     
 }
